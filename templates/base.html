@@ -7,8 +7,8 @@
             <a href="{% url 'home' %}">Django blog</a>
         </header>
     <div>
-        {% blog content %}
-        {% endblog content %}
+        {% block content %}
+        {% endblock content %}
     </div>
     </body>
 </html>

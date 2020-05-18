@@ -5,6 +5,6 @@ from .models import Post
 
 # Create your views here.
 
-class BlogLostView(ListView):
+class BlogListView(ListView):
     model = Post
     template_name = 'home.html'
